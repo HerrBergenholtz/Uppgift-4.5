@@ -16,7 +16,6 @@ namespace Uppgift_4._5
                 try
                 {
                     int siffra = int.Parse(tecken) + 1;
-
                     if (siffra == 10)
                     {
                         siffra = 0;
@@ -25,7 +24,7 @@ namespace Uppgift_4._5
                 }
                 catch
                 {
-                    Console.WriteLine("tecken är inte en siffra: " + tecken);
+                    Console.WriteLine("Tecknet är ej en siffra: " + tecken);
                 }
             }
             Console.WriteLine(summa);
